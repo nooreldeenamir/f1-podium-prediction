@@ -1,0 +1,5 @@
+Kaggle notebook:
+https://www.kaggle.com/code/nooreldeenamir/f1-podium-prediction-milestone-1
+
+GitHub repository:
+https://github.com/nooreldeenamir/f1-podium-prediction

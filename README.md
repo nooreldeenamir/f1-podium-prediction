@@ -42,7 +42,9 @@ The notebook is self-contained; editable source sections under `code/notebook_se
 
 The upload-ready version is [submission/kaggle/F1_Podium_Prediction.ipynb](submission/kaggle/F1_Podium_Prediction.ipynb). It adds a visible dependency-setup cell before the same analytical code. Enable Internet, attach the F1 archive, and Save & Run All on CPU. Generated results appear under `/kaggle/working/output/`.
 
-Published project URLs are recorded in `Deliverables/links.txt` after publication.
+Published notebook: [F1 Podium Prediction - Milestone 1](https://www.kaggle.com/code/nooreldeenamir/f1-podium-prediction-milestone-1).
+
+Both publication URLs are recorded in [Deliverables/links.txt](Deliverables/links.txt).
 
 ## Methods and results
 
