@@ -11,7 +11,7 @@ The analytical report explains the historical findings and feature choices. The 
 
 Together, the PDFs contain **all 24 notebook plots**, with explanations. The figures are embedded in the PDFs, so separate figure folders are unnecessary. The executed notebook remains the source for the code and full computational outputs.
 
-For a submission that accepts only one PDF, combine Part I followed by Part II while retaining the two-part structure.
+[Technical+Analytical Report.pdf](Technical%2BAnalytical%20Report.pdf) is the combined submission copy containing both reports.
 
 For local notebook execution, install the dependencies from the project-root `requirements-tested.txt` and select that Python environment. The notebook automatically finds the complete project `Dataset/` folder from either the project root or `Deliverables/1- Notebook/`. For a custom dataset location, optionally set:
 
