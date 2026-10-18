@@ -1,8 +1,8 @@
 # Requirements checklist and traceability matrix
 
-Reviewed against all 8 pages of references/Milestone 1.pdf and the full attached implementation request. The original planning matrix was created before implementation; the rows below now record actual evidence. Final review: **16 October 2026**.
+Reviewed against all 8 pages of references/Milestone 1.pdf and the full attached implementation request. The original planning matrix was created before implementation; the rows below now record actual evidence. Final review: **18 October 2026**.
 
-**Result:** All 27 local technical/documentation rows are verified. Team preparedness and external publication/submission arrangements remain unverified or pending. No missing local technical deliverable was identified.
+**Result:** All 27 local technical/documentation rows are verified. Kaggle and GitHub are published; team preparedness, course-form submission and evaluation arrangements remain unverified or pending. No missing local technical deliverable was identified.
 
 Checked means implemented and verified by the stated evidence; it does not certify a grade, human understanding, or external submission.
 
@@ -35,14 +35,14 @@ Evidence names are relative to the project root. Editable code is in `code/`; re
 | R23 | Self-contained Run All notebook, visible outputs | all | F1_Podium_Prediction.ipynb, execution_run.json and delivery_checks.json; 55 cells, all 27 code cells run 1-27 in fresh kernel; no saved errors; exact source parity | [x] VERIFIED |
 | R24 | Every plot and all 3 written answers in notebook AND PDF | 5 | Deliverables/8- Report contains Part I (7 pages, 6 figures) and Part II (17 pages, 18 figures); all three answers and all 24 notebook plots are included across the two visually reviewed PDFs | [x] VERIFIED |
 | R25 | Report feature validity, comparisons, limits and XAI | 5 | Part I covers historical answers and feature validity; Part II covers model mechanics/metrics, experiments, global/local XAI, inference and evaluation limitations | [x] VERIFIED |
-| R26 | Readable lab mapping, run instructions and dependencies | README, LAB_METHOD_MAPPING | README.md, LAB_METHOD_MAPPING.md, requirements.txt and requirements-tested.txt; local execution verified; Kaggle instructions supplied but actual Kaggle run pending | [x] VERIFIED |
+| R26 | Readable lab mapping, run instructions and dependencies | README, LAB_METHOD_MAPPING | README.md, LAB_METHOD_MAPPING.md, requirements.txt and requirements-tested.txt; local execution verified; Kaggle version 3 successfully ran in 148.4 seconds; source parity is recorded | [x] VERIFIED |
 | R27 | Evaluation preparation / defend choices | README, report | Notebook explanations, report rationale and lab mapping supplied; individual understanding and oral defense cannot be verified from files | [ ] HUMAN CHECK |
-| R28 | Kaggle/GitHub/form/PDF submission and evaluation slot | checklist | PDF ready locally; accessible Kaggle/GitHub links, course form and evaluation-slot arrangements need account/human actions and were not performed | [ ] PENDING |
+| R28 | Kaggle/GitHub/form/PDF submission and evaluation slot | checklist | Both PDFs are ready; public Kaggle/GitHub links are in Deliverables/links.txt. Course-form submission and evaluation-slot arrangements remain pending | [ ] PENDING |
 | R29 | Retain final work and raw data after requested cleanup | Project organization | The lab-aligned notebook, report, models, figures, tables and all 14 raw CSVs were preserved during reorganization; obsolete implementation and temporary files were removed at your request | [x] VERIFIED |
 
 ## Execution and delivery checks
 
-- [x] Fresh-kernel Run All completed all 27 code cells in 143.64 seconds. See [execution_run.json](../output/execution_run.json).
+- [x] Fresh-kernel Run All completed all 27 code cells in 144.02 seconds from Deliverables/1- Notebook without a dataset environment variable. See [execution_run.json](../output/execution_run.json).
 - [x] The repeat corrective training reproduced all 13 tuning results exactly and all nine metric rows within numerical precision (maximum difference 5.6e-17).
 - [x] Notebook sources match all six editable source sections; the notebook runs independently of those files.
 - [x] All 14 raw CSV hashes, key checks, joins, unique grain, chronological race groups and past-only lineage checks pass.
@@ -89,14 +89,14 @@ Scores come from the corrective rerun. Model choice, hyperparameters, checkpoint
 
 ## Human/account steps still pending
 
-- [ ] Run and save an accessible Kaggle notebook version with outputs; actual Kaggle execution is not verified here.
-- [ ] Publish and verify an accessible GitHub repository with the new code and instructions.
+- [x] Public Kaggle notebook version 3 successfully ran in 148.4 seconds with outputs; see Deliverables/links.txt and output/publication.json.
+- [x] Public GitHub repository published and remote commits verified; see Deliverables/links.txt.
 - [ ] Submit the Kaggle link, GitHub link and PDF through the [course form](https://forms.gle/esDxHsvfzffYHVAZ9).
 - [ ] Confirm every team member can defend all choices and results using evidence.
 - [ ] Check evaluation announcements and reserve the required slot when available.
 
-The brief deadline is **18 October 2026, 11:59 PM**; it gives no timezone. No external publishing or submission was performed.
+The brief deadline is **18 October 2026, 11:59 PM**; it gives no timezone. Kaggle/GitHub publication is complete. Course-form submission has not been performed.
 
 ## Organization update
 
-Only the lab-aligned implementation remains in the project folder. The executed notebook is at the root, tools and source sections are under `code/`, review documents are under `docs/`, and course PDFs are under `references/`. The current code/results ZIP is under `submission/`. Old temporary files and superseded preservation/package manifests were removed. The examiner fixes subsequently regenerated the notebook, models, scores, explanations and report together; the submission ZIP contains the corrected evidence. Temporary backups and visual renders are excluded from submission.
+Only the lab-aligned implementation remains in the project folder. The executed notebook is at the root, tools and source sections are under `code/`, review documents are under `docs/`, and course PDFs are under `references/`. The published repository and `Deliverables/` contain the finalized work; `submission/kaggle/` contains the portable upload version. Old temporary files and superseded preservation/package manifests were removed. The examiner fixes regenerated the notebook, models, scores, explanations and report together. Temporary backups and visual renders are excluded from submission.

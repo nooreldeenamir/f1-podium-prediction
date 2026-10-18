@@ -292,6 +292,10 @@ def main():
         visual_status = 'PASS (recorded visual review matches current PDF hash)'
     else:
         visual_status = 'PENDING: visually inspect the report and record pdf_visual_qa.json'
+    publication_file = OUT / 'publication.json'
+    publication = json.loads(publication_file.read_text()) if publication_file.exists() else {}
+    publication_status = ('Kaggle and GitHub published; course-form submission not performed'
+                          if publication.get('status') == 'PUBLISHED' else 'PENDING')
     results = {'status': 'PASS', 'fresh_kernel_run': run, 'executed_code_cells': len(code),
                'notebook_sources_match': True, 'no_saved_errors': True,
                'project_layout': 'organized lab-aligned implementation at workspace root',
@@ -309,7 +313,7 @@ def main():
                'history_timestamps_verified': True, 'protected_clipping_flags_verified': True,
                'inference_schema_and_demos_verified': True, 'inline_figures': inline,
                'pdf_figures_exact_pixel_matches': len(found), 'report_figures': sorted(report_figure_names), 'pdf_pages': pages,
-               'external_publication_and_submission': 'PENDING', 'pdf_visual_review': visual_status}
+               'external_publication_and_submission': publication_status, 'pdf_visual_review': visual_status}
     (OUT / 'delivery_checks.json').write_text(json.dumps(results, indent=2), encoding='utf-8')
     print(json.dumps(results, indent=2))
 

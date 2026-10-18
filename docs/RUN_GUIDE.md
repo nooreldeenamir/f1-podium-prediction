@@ -108,8 +108,8 @@ This is a corrective rerun after the examiner audit inspected earlier test resul
 
 Publication URLs are recorded in `Deliverables/links.txt`. Course-form submission and evaluation arrangements are separate steps.
 
-- [ ] Publish and verify an accessible Kaggle notebook version with successful Run All outputs.
-- [ ] Publish and verify an accessible GitHub repository with the code and dependency instructions.
+- [x] Public Kaggle version 3 successfully ran in 148.4 seconds; URL in Deliverables/links.txt.
+- [x] Public GitHub repository published and remote branch verified; URL in Deliverables/links.txt.
 - [ ] Submit both accessible links and the PDF through the [course form](https://forms.gle/esDxHsvfzffYHVAZ9).
 - [ ] Confirm every team member can explain cleaning, lineage, model mechanics, primary/secondary metrics, experiments and limitations using the actual evidence.
 - [ ] Check the evaluation announcement and reserve a slot when available.
