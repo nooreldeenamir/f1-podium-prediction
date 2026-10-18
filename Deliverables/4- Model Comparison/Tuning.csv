@@ -1,0 +1,14 @@
+model,config,validation_AP,epochs,trained_epochs
+Logistic regression,"{""C"": 0.1, ""class_weight"": null}",0.7145817567423729,,
+Logistic regression,"{""C"": 0.1, ""class_weight"": ""balanced""}",0.706418205820512,,
+Logistic regression,"{""C"": 1.0, ""class_weight"": null}",0.7144232963512624,,
+Logistic regression,"{""C"": 1.0, ""class_weight"": ""balanced""}",0.707618565232762,,
+Logistic regression,"{""C"": 10.0, ""class_weight"": null}",0.7140945793469904,,
+Logistic regression,"{""C"": 10.0, ""class_weight"": ""balanced""}",0.7076262939327899,,
+Random forest,"{""max_depth"": 8, ""min_samples_leaf"": 4}",0.7368030572224379,,
+Random forest,"{""max_depth"": 8, ""min_samples_leaf"": 12}",0.7409409408270325,,
+Random forest,"{""max_depth"": null, ""min_samples_leaf"": 4}",0.7353695663368807,,
+Random forest,"{""max_depth"": null, ""min_samples_leaf"": 12}",0.7431716052470493,,
+Shallow neural network,"{""hidden_dim"": 16, ""l2"": 0.001, ""learning_rate"": 0.003, ""batch_size"": 256, ""best_epoch"": 86}",0.733622485650521,86.0,106.0
+Shallow neural network,"{""hidden_dim"": 32, ""l2"": 0.001, ""learning_rate"": 0.003, ""batch_size"": 256, ""best_epoch"": 46}",0.7329965436554386,46.0,66.0
+Shallow neural network,"{""hidden_dim"": 32, ""l2"": 0.01, ""learning_rate"": 0.003, ""batch_size"": 256, ""best_epoch"": 140}",0.7487176748067453,140.0,160.0

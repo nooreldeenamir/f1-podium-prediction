@@ -1,0 +1,50 @@
+{
+  "selected_model": "Shallow neural network",
+  "thresholds": {
+    "Logistic regression": 0.20644124590195204,
+    "Random forest": 0.368219768078595,
+    "Shallow neural network": 0.34711048007011414
+  },
+  "best_configs": {
+    "Logistic regression": {
+      "C": 0.1,
+      "class_weight": null
+    },
+    "Random forest": {
+      "max_depth": null,
+      "min_samples_leaf": 12
+    },
+    "Shallow neural network": {
+      "hidden_dim": 32,
+      "l2": 0.01,
+      "learning_rate": 0.003,
+      "batch_size": 256,
+      "best_epoch": 140
+    }
+  },
+  "features": [
+    "grid",
+    "grid_unassigned",
+    "qualifying_position",
+    "qualifying_gap_pct",
+    "driver_form_podium_rate",
+    "driver_form_points",
+    "driver_form_finish",
+    "driver_prior_starts",
+    "constructor_form_podium_rate",
+    "constructor_form_points",
+    "driver_standing_points",
+    "driver_standing_position",
+    "constructor_standing_points",
+    "constructor_standing_position",
+    "driver_age",
+    "is_home",
+    "circuit_prior_podium_rate",
+    "year",
+    "round"
+  ],
+  "training_rows": 9799,
+  "validation_rows": 1200,
+  "selection_rule": "Validation AP; thresholds maximize validation F1; primary preprocessing unchanged",
+  "frozen_at_utc": "2026-10-16T11:47:36Z"
+}

@@ -1,0 +1,29 @@
+raceId,year,driverId,constructorId,constructor_name,grid,laps,positionText,race_status
+901,2014,815,10,Force India,14,0,W,Withdrew
+905,2014,813,208,Lotus F1,15,0,W,Withdrew
+913,2014,155,207,Caterham,20,0,W,Power Unit
+926,2015,822,3,Williams,0,0,W,Withdrew
+926,2015,825,1,McLaren,17,0,W,Withdrew
+926,2015,826,9,Red Bull,12,0,W,Withdrew
+927,2015,829,209,Manor Marussia,0,0,W,Fuel system
+929,2015,18,1,McLaren,20,0,W,ERS
+934,2015,831,15,Sauber,16,0,W,Gearbox
+937,2015,807,10,Force India,11,0,W,Power loss
+948,2016,826,9,Red Bull,18,0,W,Retired
+949,2016,20,6,Ferrari,3,0,W,Engine
+949,2016,835,4,Renault,19,0,W,Hydraulics
+962,2016,154,210,Haas F1 Team,20,0,W,Withdrew
+967,2016,154,210,Haas F1 Team,7,0,W,Withdrew
+972,2017,4,1,McLaren,15,0,W,Power Unit
+1034,2020,807,211,Racing Point,13,0,W,Power Unit
+1037,2020,832,1,McLaren,7,0,W,Exhaust
+1056,2021,844,6,Ferrari,1,0,W,Driveshaft
+1065,2021,852,213,AlphaTauri,0,0,W,Brakes
+1073,2021,853,210,Haas F1 Team,20,0,W,Illness
+1075,2022,854,210,Haas F1 Team,0,0,W,Withdrew
+1113,2023,840,117,Aston Martin,0,0,W,Withdrew
+1115,2023,832,6,Ferrari,12,0,W,Fuel leak
+1118,2023,844,6,Ferrari,0,0,W,Engine
+1132,2024,842,214,Alpine F1 Team,19,0,W,Gearbox
+1141,2024,840,117,Aston Martin,10,0,W,Withdrew
+1141,2024,848,3,Williams,7,0,W,Withdrew

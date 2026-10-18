@@ -1,0 +1,140 @@
+statusId,race_status,cause_category,rows_2014_2024,nonstarters_2014_2024,full_distance_component_status_rows
+1,Finished,Finished / lapped,2403,0,0
+2,Disqualified,Regulatory: never mechanical,11,0,0
+3,Accident,Crash / damage: never mechanical,85,0,0
+4,Collision,Crash / damage: never mechanical,150,0,0
+5,Engine,Mechanical: strict,81,2,0
+6,Gearbox,Mechanical: strict,42,2,0
+7,Transmission,Mechanical: strict,3,0,0
+8,Clutch,Mechanical: strict,2,0,0
+9,Hydraulics,Mechanical: strict,15,1,0
+10,Electrical,Mechanical: strict,14,0,0
+11,+1 Lap,Finished / lapped,1178,0,0
+12,+2 Laps,Finished / lapped,208,0,0
+13,+3 Laps,Finished / lapped,24,0,0
+14,+4 Laps,Finished / lapped,6,0,0
+15,+5 Laps,Finished / lapped,1,0,0
+16,+6 Laps,Finished / lapped,2,0,0
+17,+7 Laps,Finished / lapped,1,0,0
+18,+8 Laps,Finished / lapped,2,0,0
+19,+9 Laps,Finished / lapped,0,0,0
+20,Spun off,Crash / damage: never mechanical,11,0,0
+21,Radiator,Mechanical: strict,3,0,0
+22,Suspension,Mechanical: strict,25,0,0
+23,Brakes,Mechanical: strict,49,1,0
+24,Differential,Mechanical: strict,1,0,0
+25,Overheating,Mechanical: strict,8,0,0
+26,Mechanical,Mechanical: strict,7,0,0
+27,Tyre,Ambiguous: broad sensitivity only,4,0,0
+28,Driver Seat,Ambiguous: broad sensitivity only,0,0,0
+29,Puncture,Ambiguous: broad sensitivity only,7,0,0
+30,Driveshaft,Mechanical: strict,2,1,0
+31,Retired,Ambiguous: broad sensitivity only,50,1,0
+32,Fuel pressure,Mechanical: strict,5,0,0
+33,Front wing,Ambiguous: broad sensitivity only,3,0,0
+34,Water pressure,Mechanical: strict,7,0,0
+35,Refuelling,Ambiguous: broad sensitivity only,0,0,0
+36,Wheel,Ambiguous: broad sensitivity only,11,0,0
+37,Throttle,Mechanical: strict,2,0,0
+38,Steering,Mechanical: strict,2,0,0
+39,Technical,Mechanical: strict,2,0,0
+40,Electronics,Mechanical: strict,4,0,0
+41,Broken wing,Ambiguous: broad sensitivity only,0,0,0
+42,Heat shield fire,Mechanical: strict,0,0,0
+43,Exhaust,Mechanical: strict,5,1,0
+44,Oil leak,Mechanical: strict,10,0,0
+45,+11 Laps,Finished / lapped,0,0,0
+46,Wheel rim,Ambiguous: broad sensitivity only,0,0,0
+47,Water leak,Mechanical: strict,4,0,0
+48,Fuel pump,Mechanical: strict,1,0,0
+49,Track rod,Mechanical: strict,0,0,0
+50,+17 Laps,Finished / lapped,0,0,0
+51,Oil pressure,Mechanical: strict,2,0,0
+128,+42 Laps,Finished / lapped,0,0,0
+53,+13 Laps,Finished / lapped,0,0,0
+54,Withdrew,Withdrawal: inspect laps for start evidence,14,11,0
+55,+12 Laps,Finished / lapped,0,0,0
+56,Engine fire,Mechanical: strict,0,0,0
+129,Engine misfire,Mechanical: strict,0,0,0
+58,+26 Laps,Finished / lapped,0,0,0
+59,Tyre puncture,Ambiguous: broad sensitivity only,0,0,0
+60,Out of fuel,Ambiguous: broad sensitivity only,1,0,0
+61,Wheel nut,Ambiguous: broad sensitivity only,3,0,0
+62,Not classified,Other / unresolved: excluded from numerator,0,0,0
+63,Pneumatics,Mechanical: strict,0,0,0
+64,Handling,Ambiguous: broad sensitivity only,0,0,0
+65,Rear wing,Ambiguous: broad sensitivity only,3,0,0
+66,Fire,Ambiguous: broad sensitivity only,0,0,0
+67,Wheel bearing,Mechanical: strict,0,0,0
+68,Physical,Driver health: never mechanical,0,0,0
+69,Fuel system,Mechanical: strict,1,1,0
+70,Oil line,Mechanical: strict,0,0,0
+71,Fuel rig,Ambiguous: broad sensitivity only,0,0,0
+72,Launch control,Mechanical: strict,0,0,0
+73,Injured,Driver health: never mechanical,0,0,0
+74,Fuel,Ambiguous: broad sensitivity only,0,0,0
+75,Power loss,Mechanical: strict,13,1,0
+76,Vibrations,Ambiguous: broad sensitivity only,2,0,0
+77,107% Rule,Nonstart / nonqualifying,0,0,0
+78,Safety,Other / unresolved: excluded from numerator,0,0,0
+79,Drivetrain,Mechanical: strict,1,0,0
+80,Ignition,Mechanical: strict,0,0,0
+81,Did not qualify,Nonstart / nonqualifying,0,0,0
+82,Injury,Driver health: never mechanical,0,0,0
+83,Chassis,Ambiguous: broad sensitivity only,0,0,0
+84,Battery,Mechanical: strict,5,0,0
+85,Stalled,Other / unresolved: excluded from numerator,0,0,0
+86,Halfshaft,Mechanical: strict,0,0,0
+87,Crankshaft,Mechanical: strict,0,0,0
+88,+10 Laps,Finished / lapped,0,0,0
+89,Safety concerns,Other / unresolved: excluded from numerator,0,0,0
+90,Not restarted,Other / unresolved: excluded from numerator,0,0,0
+91,Alternator,Mechanical: strict,0,0,0
+92,Underweight,Regulatory: never mechanical,0,0,0
+93,Safety belt,Ambiguous: broad sensitivity only,0,0,0
+94,Oil pump,Mechanical: strict,0,0,0
+95,Fuel leak,Mechanical: strict,2,1,0
+96,Excluded,Regulatory: never mechanical,1,0,0
+97,Did not prequalify,Nonstart / nonqualifying,0,0,0
+98,Injection,Mechanical: strict,0,0,0
+99,Distributor,Mechanical: strict,0,0,0
+100,Driver unwell,Driver health: never mechanical,0,0,0
+101,Turbo,Mechanical: strict,6,0,0
+102,CV joint,Mechanical: strict,0,0,0
+103,Water pump,Mechanical: strict,1,0,0
+104,Fatal accident,Crash / damage: never mechanical,0,0,0
+105,Spark plugs,Mechanical: strict,1,0,0
+106,Fuel pipe,Mechanical: strict,0,0,0
+107,Eye injury,Driver health: never mechanical,0,0,0
+108,Oil pipe,Mechanical: strict,0,0,0
+109,Axle,Mechanical: strict,0,0,0
+110,Water pipe,Mechanical: strict,0,0,0
+111,+14 Laps,Finished / lapped,0,0,0
+112,+15 Laps,Finished / lapped,0,0,0
+113,+25 Laps,Finished / lapped,0,0,0
+114,+18 Laps,Finished / lapped,0,0,0
+115,+22 Laps,Finished / lapped,0,0,0
+116,+16 Laps,Finished / lapped,0,0,0
+117,+24 Laps,Finished / lapped,0,0,0
+118,+29 Laps,Finished / lapped,0,0,0
+119,+23 Laps,Finished / lapped,0,0,0
+120,+21 Laps,Finished / lapped,0,0,0
+121,Magneto,Mechanical: strict,0,0,0
+122,+44 Laps,Finished / lapped,0,0,0
+123,+30 Laps,Finished / lapped,0,0,0
+124,+19 Laps,Finished / lapped,0,0,0
+125,+46 Laps,Finished / lapped,0,0,0
+126,Supercharger,Mechanical: strict,0,0,0
+127,+20 Laps,Finished / lapped,0,0,0
+130,Collision damage,Crash / damage: never mechanical,59,0,0
+131,Power Unit,Mechanical: strict,42,3,1
+132,ERS,Mechanical: strict,5,1,0
+133,+49 Laps,Finished / lapped,0,0,0
+134,+38 Laps,Finished / lapped,0,0,0
+135,Brake duct,Ambiguous: broad sensitivity only,1,0,0
+136,Seat,Ambiguous: broad sensitivity only,1,0,0
+137,Damage,Crash / damage: never mechanical,2,0,0
+138,Debris,Crash / damage: never mechanical,1,0,0
+139,Illness,Driver health: never mechanical,3,1,0
+140,Undertray,Ambiguous: broad sensitivity only,4,0,0
+141,Cooling system,Mechanical: strict,1,0,0

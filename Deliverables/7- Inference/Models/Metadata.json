@@ -1,0 +1,171 @@
+{
+  "selected_model": "Shallow neural network",
+  "features": [
+    "grid",
+    "grid_unassigned",
+    "qualifying_position",
+    "qualifying_gap_pct",
+    "driver_form_podium_rate",
+    "driver_form_points",
+    "driver_form_finish",
+    "driver_prior_starts",
+    "constructor_form_podium_rate",
+    "constructor_form_points",
+    "driver_standing_points",
+    "driver_standing_position",
+    "constructor_standing_points",
+    "constructor_standing_position",
+    "driver_age",
+    "is_home",
+    "circuit_prior_podium_rate",
+    "year",
+    "round"
+  ],
+  "threshold": 0.34711048007011414,
+  "all_thresholds": {
+    "Logistic regression": 0.20644124590195204,
+    "Random forest": 0.368219768078595,
+    "Shallow neural network": 0.34711048007011414
+  },
+  "transformed_features": [
+    "grid",
+    "grid_unassigned",
+    "qualifying_position",
+    "qualifying_gap_pct",
+    "driver_form_podium_rate",
+    "driver_form_points",
+    "driver_form_finish",
+    "driver_prior_starts",
+    "constructor_form_podium_rate",
+    "constructor_form_points",
+    "driver_standing_points",
+    "driver_standing_position",
+    "constructor_standing_points",
+    "constructor_standing_position",
+    "driver_age",
+    "is_home",
+    "circuit_prior_podium_rate",
+    "year",
+    "round",
+    "missing_grid",
+    "missing_qualifying_position",
+    "missing_qualifying_gap_pct",
+    "missing_driver_form_podium_rate",
+    "missing_driver_form_points",
+    "missing_driver_form_finish",
+    "missing_constructor_form_podium_rate",
+    "missing_constructor_form_points",
+    "missing_driver_standing_position",
+    "missing_constructor_standing_position",
+    "missing_circuit_prior_podium_rate"
+  ],
+  "indicator_features": [
+    "grid",
+    "qualifying_position",
+    "qualifying_gap_pct",
+    "driver_form_podium_rate",
+    "driver_form_points",
+    "driver_form_finish",
+    "constructor_form_podium_rate",
+    "constructor_form_points",
+    "driver_standing_position",
+    "constructor_standing_position",
+    "circuit_prior_podium_rate"
+  ],
+  "feature_groups": {
+    "grid": [
+      "grid",
+      "grid_unassigned"
+    ],
+    "qualifying": [
+      "qualifying_position",
+      "qualifying_gap_pct"
+    ],
+    "form": [
+      "driver_form_podium_rate",
+      "driver_form_points",
+      "driver_form_finish",
+      "driver_prior_starts",
+      "constructor_form_podium_rate",
+      "constructor_form_points"
+    ],
+    "standings": [
+      "driver_standing_points",
+      "driver_standing_position",
+      "constructor_standing_points",
+      "constructor_standing_position"
+    ],
+    "context": [
+      "driver_age",
+      "is_home",
+      "circuit_prior_podium_rate",
+      "year",
+      "round"
+    ]
+  },
+  "training_years": [
+    1994,
+    2018
+  ],
+  "validation_years": [
+    2019,
+    2021
+  ],
+  "test_years": [
+    2022,
+    2024
+  ],
+  "best_configs": {
+    "Logistic regression": {
+      "C": 0.1,
+      "class_weight": null
+    },
+    "Random forest": {
+      "max_depth": null,
+      "min_samples_leaf": 12
+    },
+    "Shallow neural network": {
+      "hidden_dim": 32,
+      "l2": 0.01,
+      "learning_rate": 0.003,
+      "batch_size": 256,
+      "best_epoch": 140
+    }
+  },
+  "seed": 42,
+  "feature_semantics": "Engineered post-qualifying pre-race inputs; histories exclude current race. Omitted/null/grid<=0 is missing; grid_unassigned derived; contradictory flags fail.",
+  "versions": {
+    "numpy": "2.3.0",
+    "pandas": "2.3.0",
+    "sklearn": "1.7.0",
+    "tensorflow": "2.20.0",
+    "keras": "3.15.1",
+    "shap": "0.53.0"
+  },
+  "training_medians": {
+    "grid": 11.0,
+    "grid_unassigned": 0.0,
+    "qualifying_position": 11.0,
+    "qualifying_gap_pct": 1.9720814842336232,
+    "driver_form_podium_rate": 0.0,
+    "driver_form_points": 0.8,
+    "driver_form_finish": 11.8,
+    "driver_prior_starts": 60.0,
+    "constructor_form_podium_rate": 0.0,
+    "constructor_form_points": 1.0,
+    "driver_standing_points": 5.0,
+    "driver_standing_position": 11.0,
+    "constructor_standing_points": 12.0,
+    "constructor_standing_position": 6.0,
+    "driver_age": 28.06902263564618,
+    "is_home": 0.0,
+    "circuit_prior_podium_rate": 0.13636363636363635,
+    "year": 2007.0,
+    "round": 9.0
+  },
+  "model_files": {
+    "Logistic regression": "Logistic Regression.joblib",
+    "Random forest": "Random Forest.joblib",
+    "Shallow neural network": "Shallow Neural Network.keras"
+  }
+}

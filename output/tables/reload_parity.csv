@@ -1,0 +1,4 @@
+model,rows,maximum_absolute_error,passed
+Logistic regression,25,0.0,True
+Random forest,25,5.551115123125783e-17,True
+Shallow neural network,25,1.862645149230957e-09,True

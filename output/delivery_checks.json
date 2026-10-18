@@ -1,0 +1,54 @@
+{
+  "status": "PASS",
+  "fresh_kernel_run": {
+    "status": "PASS",
+    "fresh_kernel": true,
+    "working_directory": "C:\\Users\\ROG STRIX\\Downloads\\ACL Project\\Deliverables\\1- Notebook",
+    "dataset_environment_variable_required": false,
+    "executed_code_cells": 27,
+    "elapsed_seconds": 144.02,
+    "metrics_match_delivered": true,
+    "modeling_table_match_delivered": true
+  },
+  "executed_code_cells": 27,
+  "notebook_sources_match": true,
+  "no_saved_errors": true,
+  "project_layout": "organized lab-aligned implementation at workspace root",
+  "previous_implementation": "removed at user request; supplied dataset retained",
+  "raw_csv_hashes_match": true,
+  "model_rows": 12358,
+  "native_models_reloaded": [
+    "Logistic regression",
+    "Random forest",
+    "Shallow neural network"
+  ],
+  "all_nine_model_split_metrics_recomputed": true,
+  "training_preprocessing_verified": true,
+  "all_thresholds_verified_against_validation_f1": true,
+  "independent_feature_reference_checks": 480,
+  "all_prior_starts_recounted_from_raw": 12358,
+  "positive_lap_label_conflicts_retained_as_starts": 24,
+  "q3_start_denominators_reconciled": true,
+  "normalized_home_flags_recomputed": 12358,
+  "shap_global_season_counts_verified": {
+    "2019": 21,
+    "2020": 17,
+    "2021": 22
+  },
+  "history_timestamps_verified": true,
+  "protected_clipping_flags_verified": true,
+  "inference_schema_and_demos_verified": true,
+  "inline_figures": 24,
+  "pdf_figures_exact_pixel_matches": 6,
+  "report_figures": [
+    "11_feature_evidence.png",
+    "12_feature_effects.png",
+    "q1_era_changes.png",
+    "q1_frontrow_circuits.png",
+    "q2_home_advantage.png",
+    "q3_constructor_reliability.png"
+  ],
+  "pdf_pages": 7,
+  "external_publication_and_submission": "PENDING",
+  "pdf_visual_review": "PASS (recorded visual review matches current PDF hash)"
+}

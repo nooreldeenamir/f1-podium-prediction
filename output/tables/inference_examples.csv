@@ -1,0 +1,4 @@
+example,model,podium_probability,podium_prediction,threshold,imputed_features,note
+complete,Shallow neural network,0.595058023929596,1,0.34711048007011414,[],All engineered inputs supplied.
+partially missing,Shallow neural network,0.45957234501838684,1,0.34711048007011414,"['qualifying_position', 'qualifying_gap_pct', 'driver_standing_points', 'driver_standing_position', 'constructor_standing_points', 'constructor_standing_position']",Missing inputs use training medians and missingness flags.
+missing grid,Shallow neural network,0.02634253166615963,0,0.34711048007011414,['grid'],Missing inputs use training medians and missingness flags.
