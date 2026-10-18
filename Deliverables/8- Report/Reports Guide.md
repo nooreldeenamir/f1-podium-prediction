@@ -13,7 +13,7 @@ Together, the PDFs contain **all 24 notebook plots**, with explanations. The fig
 
 For a submission that accepts only one PDF, combine Part I followed by Part II while retaining the two-part structure.
 
-For local notebook execution, install the dependencies in `Deliverables/requirements.txt` and select that Python environment. The notebook automatically finds the complete project `Dataset/` folder from either the project root or `Deliverables/1- Notebook/`. For a custom dataset location, optionally set:
+For local notebook execution, install the dependencies from the project-root `requirements-tested.txt` and select that Python environment. The notebook automatically finds the complete project `Dataset/` folder from either the project root or `Deliverables/1- Notebook/`. For a custom dataset location, optionally set:
 
 ```powershell
 $env:F1_DATA_DIR = 'C:\Users\ROG STRIX\Downloads\ACL Project\Dataset'
