@@ -40,7 +40,7 @@ The notebook is self-contained; editable source sections under `code/notebook_se
 
 ## Kaggle
 
-The upload-ready version is [submission/kaggle/F1_Podium_Prediction.ipynb](submission/kaggle/F1_Podium_Prediction.ipynb). It adds a visible dependency-setup cell before the same analytical code. Enable Internet, attach the F1 archive, and Save & Run All on CPU. Generated results appear under `/kaggle/working/output/`.
+The upload-ready version is [submission/kaggle/F1_Podium_Prediction.ipynb](submission/kaggle/F1_Podium_Prediction.ipynb). It adds a visible setup cell before the same analytical code, retaining Kaggle's preloaded numerical libraries and installing missing extras. Runtime versions are recorded; platform differences may change scores slightly. Enable Internet, attach the F1 archive, and Save & Run All on CPU. Generated results appear under `/kaggle/working/output/`.
 
 Published notebook: [F1 Podium Prediction - Milestone 1](https://www.kaggle.com/code/nooreldeenamir/f1-podium-prediction-milestone-1).
 

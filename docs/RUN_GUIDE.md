@@ -46,9 +46,9 @@ The delivered local run used a dedicated `.venv` created with `--system-site-pac
 
 ## Run on Kaggle
 
-1. Create a Kaggle notebook and import `F1_Podium_Prediction.ipynb`.
+1. Create a Kaggle notebook and import `submission/kaggle/F1_Podium_Prediction.ipynb`. This variant adds two visible setup cells before the unchanged analytical notebook.
 2. Attach the milestone's [Formula 1 archive](https://www.kaggle.com/datasets/rohanrao/formula-1-world-championship-1950-2020), or upload the supplied 14 CSV files as a dataset. The delivered evidence uses the supplied archive, which ends in 2024. Analyses are capped at 2024 even if a newer archive is attached; changed historical records can change results.
-3. Select a Python CPU session and install dependencies before running the analytical notebook. The notebook reports missing dependencies clearly instead of changing the environment during an analysis. In an initial environment-setup cell, use `%pip install tensorflow==2.20.0 shap==0.53.0 lime==0.2.0.1`; the other analysis/report packages in `requirements.txt` must also be available. Enable internet for installation, then restart the kernel if TensorFlow or its dependencies were replaced. An offline session needs the packages supplied in advance. No analytical cells need changes.
+3. Select a Python CPU session and explicitly enable Internet after import. The visible setup cell retains Kaggle's preloaded NumPy/pandas/sklearn/TensorFlow/Keras stack and installs only missing extras without dependencies. Do not replace preloaded numerical libraries inside a running Kaggle kernel: their in-memory binaries can disagree with newly installed files. The actual package versions are recorded in the outputs; they can differ from the pinned Python 3.12 local environment and slightly change fitted results. No analytical cells need changes.
 4. The notebook discovers the attached folder containing all 14 tables. If there are multiple matching inputs, set `F1_DATA_DIR` to the intended folder in the session environment before execution.
 5. Choose **Run All**, inspect the runtime verification and generated report, then save a version containing outputs. Kaggle writes generated evidence to `/kaggle/working/output`; local execution writes to this directory's `output`.
 
